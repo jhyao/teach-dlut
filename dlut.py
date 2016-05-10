@@ -67,10 +67,3 @@ for i in range(12):
 
 json_text = json.dumps(course, ensure_ascii=False)
 print json_text
-
-
-course2=[]
-for i in range(7):
-    day={
-        ''
-    }
