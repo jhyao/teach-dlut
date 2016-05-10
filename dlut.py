@@ -12,7 +12,6 @@ import cookielib
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-'''
 cookie = cookielib.MozillaCookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 
@@ -29,7 +28,7 @@ page_html = unicode(response, 'gb2312').encode('utf-8')
 f=open('page.html','w')
 f.write(page_html)
 f.close()
-'''
+
 
 f = open('page.html', 'r')
 page_html = f.read()
