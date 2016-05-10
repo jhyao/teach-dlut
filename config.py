@@ -1,7 +1,7 @@
 # coding:utf-8
 
-stu_number = '201492419'
-password = '020612'
+stu_number = '******'
+password = '******'
 
 dlut_url = 'http://zhjw.dlut.edu.cn/'
 login_url = 'http://zhjw.dlut.edu.cn/loginAction.do'
@@ -23,5 +23,4 @@ course_header={
     'referer':'http://zhjw.dlut.edu.cn/menu/s_main.jsp'
 }
 
-def days(i):
-    days['Mon',]
+
